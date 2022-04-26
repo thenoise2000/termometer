@@ -32,4 +32,5 @@ public class TermometerApplication {
         double value = converter.convertCelsiusFarenheit(celsius);
         return new ResponseEntity<>(value, HttpStatus.OK);
     }
+    
 }
